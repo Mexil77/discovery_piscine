@@ -1,0 +1,44 @@
+html, body {
+	height: 100%;
+}
+
+.parallax {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* Set a specific height */
+	height: 100%;
+	
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#para1 {
+	background-image: url("https://media.redadn.es/imagenes/pokemaster_338609.jpg");
+}
+
+#para2 {
+	background-image: url("https://alfabetajuega.com/hero/2020/12/alakazam-pokemon-abj.jpg?width=1200&aspect_ratio=1200:631");
+}
+
+.textbox{
+	color: blanchedalmond;
+	height:500px;
+	background-color:black;
+	font-size:70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.textbox p {
+	width: 50%;
+	text-align: center;
+}
+
+.textboximg{
+	color: aliceblue;
+}
